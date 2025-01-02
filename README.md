@@ -2,6 +2,9 @@
 # Conversor de Monedas en Java
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/iacastillo90/Challenge-ONE-Back-End---Conversor-de-moneda?style=social)
+![Build Status](https://img.shields.io/github/workflow/status/iacastillo90/Challenge-ONE-Back-End---Conversor-de-moneda/Java%20CI)
+![License](https://img.shields.io/github/license/iacastillo90/Challenge-ONE-Back-End---Conversor-de-moneda)
+![Java](https://img.shields.io/badge/java-17-orange)
 
 ## Tabla de Contenidos
 
