@@ -80,7 +80,7 @@ El programa mostrará el resultado de la conversión en la moneda deseada.
 Después de cada conversión, se podrá realizar otra operación o salir del programa.
 
 
-![Descripción de la imagen](https://github.com/iacastillo90/Challenge-ONE-Back-End---Conversor-de-moneda/blob/main/img1.png)
+![Descripción de la imagen](https://github.com/iacastillo90/Challenge-ONE-Back-End---Conversor-de-moneda/blob/main/img1)
 
 ## Agradecimientos
 
