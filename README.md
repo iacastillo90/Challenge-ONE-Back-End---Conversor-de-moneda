@@ -1,7 +1,7 @@
 # Challenge-ONE-Back-End---Conversor-de-moneda
 # Conversor de Monedas en Java
 
-![GitHub Repo stars](https://img.shields.io/github/stars/tu_usuario/tu_repositorio?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/iacastillo90/Challenge-ONE-Back-End---Conversor-de-moneda?style=social)
 
 ## Tabla de Contenidos
 
@@ -10,9 +10,6 @@
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
 - [Instalación](#instalación)
 - [Uso](#uso)
-- [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
-- [Autores](#autores)
 - [Agradecimientos](#agradecimientos)
 
 ## Descripción
@@ -47,3 +44,44 @@ Este proyecto fue desarrollado como parte del desafío de programación de Alura
 
    ```bash
    https://github.com/iacastillo90/Challenge-ONE-Back-End---Conversor-de-moneda
+   
+2. **Navegar al directorio del proyecto**
+   ```bash
+   cd Challenge-ONE-Back-End---Conversor-de-moneda
+   
+4. **Agregar la biblioteca Gson**
+
+- **Descarga** el archivo JAR de Gson (por ejemplo, gson-2.11.0.jar).
+- **Coloca** el archivo JAR en el directorio del proyecto o en una carpeta específica de bibliotecas.
+   
+5. **Compilar el proyecto**
+   ```bash
+   javac -cp gson-2.11.0.jar *.java
+
+6. **Ejecutar la aplicación**
+   ```bash
+   java -cp .;gson-2.11.0.jar Main
+
+## Uso
+
+1. **Ingresar el valor a convertir**
+El programa solicitará un valor numérico para la conversión.
+
+2. **Seleccionar la opción de conversión**
+Se mostrará un menú con varias opciones de cambio de moneda (USD ↔ ARS, USD ↔ BRL, USD ↔ COP, etc.).
+
+3. **Ver el resultado**
+El programa mostrará el resultado de la conversión en la moneda deseada.
+
+4. **Repetir o Salir**
+Después de cada conversión, se podrá realizar otra operación o salir del programa.
+
+
+![Descripción de la imagen](https://github.com/iacastillo90/Challenge-ONE-Back-End---Conversor-de-moneda/blob/main/img1.png)
+
+## Agradecimientos
+
+- **ExchangeRate-API por proporcionar una API gratuita de tasas de cambio.**
+- **Gson por facilitar el parseo de JSON en Java.**
+- **Inspirado en los cursos y materiales de Alura Latam.**
+
