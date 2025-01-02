@@ -1,0 +1,32 @@
+[
+  {
+    "cantidad": 100.0,
+    "fromMoneda": "USD",
+    "toMoneda": "ARS",
+    "resultado": 103250.0
+  },
+  {
+    "cantidad": 1200.0,
+    "fromMoneda": "USD",
+    "toMoneda": "BRL",
+    "resultado": 7420.5599999999995
+  },
+  {
+    "cantidad": 1233.0,
+    "fromMoneda": "BRL",
+    "toMoneda": "USD",
+    "resultado": 199.39195963646947
+  },
+  {
+    "cantidad": 13222.0,
+    "fromMoneda": "USD",
+    "toMoneda": "COP",
+    "resultado": 5.826492463E7
+  },
+  {
+    "cantidad": 3432.0,
+    "fromMoneda": "COP",
+    "toMoneda": "USD",
+    "resultado": 0.7788202643041847
+  }
+]

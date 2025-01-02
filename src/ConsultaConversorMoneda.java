@@ -63,4 +63,9 @@ public class ConsultaConversorMoneda {
     public Map<String, Double> getTasasDeCambio() {
         return tasasDeCambio.conversion_rates();
     }
+
+    public Moneda getMoneda() {
+
+        return tasasDeCambio;
+    }
 }

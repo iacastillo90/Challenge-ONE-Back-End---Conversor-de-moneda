@@ -10,6 +10,7 @@ public class Main {
         System.out.println("##############################################");
         System.out.println("Sea Bienvenido/a al Conversor de Monedas. 👌\n");
 
+        GeneradorDeArchivo generador = new GeneradorDeArchivo();  // Instancia única
         boolean continuar = true;
 
         while (continuar) {
@@ -74,9 +75,12 @@ public class Main {
                         continue;
                 }
 
-                // Obtener la tasa de conversión
                 double tasa = consulta.obtenerTasa(fromMoneda, toMoneda);
                 resultado = valor * tasa;
+
+                Operacion operacion = new Operacion(valor, fromMoneda, toMoneda, resultado);
+
+                generador.guardarOperacion(operacion);
 
                 System.out.printf("Resultado: %.2f %s\n\n", resultado, toMoneda);
 
