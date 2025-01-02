@@ -46,4 +46,4 @@ Este proyecto fue desarrollado como parte del desafío de programación de Alura
 1. **Clonar el repositorio**
 
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
+   https://github.com/iacastillo90/Challenge-ONE-Back-End---Conversor-de-moneda
